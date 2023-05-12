@@ -3,6 +3,8 @@
 // (c) Gearbox Holdings, 2023
 pragma solidity ^0.8.10;
 
+// NOTE: new values must always be added at the end of the enum
+
 enum AdapterType {
     ABSTRACT,
     UNISWAP_V2_ROUTER,
